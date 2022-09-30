@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example: 4-1</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <form action="" onsubmit="submit();">
+        First Name : <br />
+        <input id="name" type="text" required /> <br />
+        Last Name : <br />
+        <input type="text" required> <br />
+        Email : <br />
+        <input type="text" required> <br />
+        Gender :
+        <input type="radio" name="gender" value="male_info" required>
+        Male
+        <input type="radio" name="gender" value="female_info" required>
+        Female <br />
+        Favorite:
+        <input type="checkbox" name="lang" value="html_box" />HTML
+        <input type="checkbox" name="lang" value="java_box" />JAVA
+        <input type="checkbox" name="lang" value="js_box" />JavaScript <br />
+        Browser:
+        <select id="Browser" name="Browser">
+            <option value="chrome" selected>크롬</option>
+            <option value="safari">사파리</option>
+            <option value="edge">엣지</option>
+        </select> <br />
+        Birthday:
+        <input type="date" name="Birthday" /> <br />
+        <input type="submit" />
+    </form>
+</body>
+
+</html>
